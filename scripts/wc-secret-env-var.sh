@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
 
 set -x
-echo "${SECRET}" | wc -c
+echo -n "${SECRET}" | wc -c
